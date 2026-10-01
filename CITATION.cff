@@ -7,7 +7,7 @@ authors:
     given-names: Erich
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22649810
+    value: 10.5281/zenodo.23090788
     description: Concept DOI, always resolves to the latest version
 url: "https://agarikon-index.com/data"
 repository-code: "https://github.com/erichmayne/Agarikon-index-data"

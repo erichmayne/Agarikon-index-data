@@ -7,7 +7,7 @@ the application code so the citable record contains data and nothing else.
 **Cite this dataset**
 
 > Mayne, Erich. *Agarikon: A Screened Index of Psychedelic Medicine*. Zenodo.
-> https://doi.org/10.5281/zenodo.22649810
+> https://doi.org/10.5281/zenodo.23090788
 
 That DOI always resolves to the latest version. Each quarterly release also mints its own
 version DOI, frozen to that snapshot.
