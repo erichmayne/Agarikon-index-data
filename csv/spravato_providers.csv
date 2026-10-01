@@ -1,0 +1,90 @@
+npi,provider,credentials,entity_type,street,city,state,zip,hcpcs,total_services,total_beneficiaries,avg_medicare_payment,data_year,source
+1013082452,Rena Ferguson,MD,I,1000 Main Street,Port Jefferson,NY,11777,G2082,61,12,781.58590164,2026,CMS Medicare Part B by Provider & Service
+1114080231,David Boguslavsky,MD,I,757 Route 202/206,Bridgewater,NJ,08807,G2082,77,20,674.49805195,2026,CMS Medicare Part B by Provider & Service
+1245393651,Thomas Andrews,M.D.,I,2891 Churn Creek Rd,Redding,CA,96002,G2082,27,13,654.02740741,2026,CMS Medicare Part B by Provider & Service
+1336670413,Xia Li,M.D.,I,200 W Arbor Dr,San Diego,CA,92103,G2082,22,13,773.31545455,2026,CMS Medicare Part B by Provider & Service
+1407856651,Melissa Rademacher,CRNA,I,1701 48th St Ste 260,West Des Moines,IA,50266,G2082,68,11,607.03176471,2026,CMS Medicare Part B by Provider & Service
+1588081673,Rachel Steere,D.O.,I,16 Blossom St,Boston,MA,02114,G2082,51,25,797.49,2026,CMS Medicare Part B by Provider & Service
+1588144588,Amir Etesam,,I,6000 Executive Blvd Ste 101,North Bethesda,MD,20852,G2082,45,13,794.10422222,2026,CMS Medicare Part B by Provider & Service
+1629569652,Yoonju Cho,MD PHD,I,55 Fruit St,Boston,MA,02114,G2082,63,25,801.56,2026,CMS Medicare Part B by Provider & Service
+1699971200,David Wolff,M.D.,I,615 Hope Rd Ste 2,Eatontown,NJ,07724,G2082,31,16,615.51451613,2026,CMS Medicare Part B by Provider & Service
+1801995352,Srisai Gowda,M.D.,I,"#2106, New Road",Linwood,NJ,08221,G2082,16,14,735.05125,2026,CMS Medicare Part B by Provider & Service
+1891043832,Francisco Dofeliz,M.D.,I,6380 Mae Anne Ave,Reno,NV,89523,G2082,32,15,656.325,2026,CMS Medicare Part B by Provider & Service
+1932284460,Kris Peterson,M.D.,I,9115 Bridgeport Way Sw Ste 2,Lakewood,WA,98499,G2082,18,12,651.70611111,2026,CMS Medicare Part B by Provider & Service
+1932312840,Ivan Cichowicz,M.D.,I,2201 Nw Corporate Blvd,Boca Raton,FL,33431,G2082,93,22,664.34580645,2026,CMS Medicare Part B by Provider & Service
+1003863838,Arvin Mirow,MD,I,277 Rancheros Dr,San Marcos,CA,92069,G2083,176,33,1102.2026136,2026,CMS Medicare Part B by Provider & Service
+1003942426,Cristina Cusin,MD,I,Massachusetts General Hospital,Boston,MA,02114,G2083,38,19,1133.61,2026,CMS Medicare Part B by Provider & Service
+1013082452,Rena Ferguson,MD,I,1000 Main Street,Port Jefferson,NY,11777,G2083,153,15,1106.2311765,2026,CMS Medicare Part B by Provider & Service
+1053467738,David Feifel,M.D.,I,3252 Holiday Ct Ste 112,La Jolla,CA,92037,G2083,60,24,1113.7056667,2026,CMS Medicare Part B by Provider & Service
+1053475939,Horacio Capote,M.D.,I,3980 Sheridan Dr Ste 500,Amherst,NY,14226,G2083,347,17,903.78095101,2026,CMS Medicare Part B by Provider & Service
+1063420057,Gregory Bunt,M.D.,I,54 West 40th Street,New York,NY,10018,G2083,64,12,856.13,2026,CMS Medicare Part B by Provider & Service
+1063506822,Roberto Estrada,M.D.,I,111 E 80th St,New York,NY,10075,G2083,74,15,1331.0567568,2026,CMS Medicare Part B by Provider & Service
+1073771598,Kaila Compton,"M.D., PH.D.",I,401 Parnassus Ave,San Francisco,CA,94143,G2083,348,32,1317.5827586,2026,CMS Medicare Part B by Provider & Service
+1073836607,Melissa Snyder,CRNA,I,700 E University Ave,Des Moines,IA,50316,G2083,23,15,807.54956522,2026,CMS Medicare Part B by Provider & Service
+1114080231,David Boguslavsky,MD,I,757 Route 202/206,Bridgewater,NJ,08807,G2083,1137,39,998.36187335,2026,CMS Medicare Part B by Provider & Service
+1124026042,Mindy Gingery,"PMHNP-BC, CRNA",I,1960 Sw Magazine Rd,Ankeny,IA,50023,G2083,47,17,820.59595745,2026,CMS Medicare Part B by Provider & Service
+1174074074,Anna Hereth,PHYSICIAN ASSISTANT,I,705 Washington Ave,Oakmont,PA,15139,G2083,98,12,826.02469388,2026,CMS Medicare Part B by Provider & Service
+1184262735,Ivan Srdanovic,PMHNP-BC,I,2200 N A W Grimes Blvd Ste 600,Round Rock,TX,78665,G2083,61,11,843.64,2026,CMS Medicare Part B by Provider & Service
+1184493355,Kelsey Johnson,PMHNP-BC,I,3555 Willow Lake Blvd Ste 290,Vadnais Heights,MN,55110,G2083,89,11,825.65707865,2026,CMS Medicare Part B by Provider & Service
+1194787200,Satish Narayan,MD,I,7170 Preston Rd Ste 200,Plano,TX,75024,G2083,210,11,929.368,2026,CMS Medicare Part B by Provider & Service
+1194834424,Arjun Reyes,MD,I,893 Patriot Dr Ste A,Moorpark,CA,93021,G2083,114,11,1107.4101754,2026,CMS Medicare Part B by Provider & Service
+1205028149,Jonathan Beatty,M.D.,I,6 E Willow Grove Ave,Philadelphia,PA,19118,G2083,166,11,999.72506024,2026,CMS Medicare Part B by Provider & Service
+1205037843,Derek Schumm,M.D.,I,2001 Dwight Way Ste 4190,Berkeley,CA,94704,G2083,63,21,1323.9712698,2026,CMS Medicare Part B by Provider & Service
+1205466356,Emma Smith,"APRN, PMHNP",I,3001 Bee Caves Rd Ste 220,Rollingwood,TX,78746,G2083,21,14,966.27666667,2026,CMS Medicare Part B by Provider & Service
+1235592718,Kuzma Kovzun,,I,8775 Sierra College Blvd Ste 200,Roseville,CA,95661,G2083,17,11,1094.66,2026,CMS Medicare Part B by Provider & Service
+1245393651,Thomas Andrews,M.D.,I,2891 Churn Creek Rd,Redding,CA,96002,G2083,331,16,938.96132931,2026,CMS Medicare Part B by Provider & Service
+1336147339,Mark Hilliard,CRNA,I,5901 Westown Pkwy,West Des Moines,IA,50266,G2083,113,21,837.20309735,2026,CMS Medicare Part B by Provider & Service
+1336670413,Xia Li,M.D.,I,200 W Arbor Dr,San Diego,CA,92103,G2083,130,19,992.52153846,2026,CMS Medicare Part B by Provider & Service
+1346251550,Paul Corey,MD,I,7901 Frost St,San Diego,CA,92123,G2083,195,27,1104.4481538,2026,CMS Medicare Part B by Provider & Service
+1407856651,Melissa Rademacher,CRNA,I,1701 48th St Ste 260,West Des Moines,IA,50266,G2083,470,28,840.5553617,2026,CMS Medicare Part B by Provider & Service
+1417371287,Steven Pennybaker,M.D.,I,401 Parnassus Ave,San Francisco,CA,94143,G2083,36,13,1301.3669444,2026,CMS Medicare Part B by Provider & Service
+1437463619,Brendon Nacewicz,"M.D., PH.D.",I,6502 Grand Teton Plz Ste 107,Madison,WI,53719,G2083,192,16,904.616875,2026,CMS Medicare Part B by Provider & Service
+1487616272,Marty Bennett,MD,I,16479 Dallas Pkwy Ste 320,Addison,TX,75001,G2083,454,24,894.02561674,2026,CMS Medicare Part B by Provider & Service
+1487724662,Cheryl Malina,MD,I,77 Quaker Ridge Rd Ste 212,New Rochelle,NY,10804,G2083,76,27,1186.8682895,2026,CMS Medicare Part B by Provider & Service
+1487754974,Mohamad Bahnassi,M.D.,I,Behavioral Healthcare Services,Worcester,MA,01604,G2083,255,12,865.73760784,2026,CMS Medicare Part B by Provider & Service
+1497169171,Leyda Hu,D.O,I,12 N 7th Ave,Mount Vernon,NY,10550,G2083,188,26,1127.2242021,2026,CMS Medicare Part B by Provider & Service
+1538322946,Rhonda Forest,M.D.,I,1400 Pelham Pkwy S,Bronx,NY,10461,G2083,39,12,1107.4935897,2026,CMS Medicare Part B by Provider & Service
+1588081673,Rachel Steere,D.O.,I,16 Blossom St,Boston,MA,02114,G2083,180,28,1133.5072222,2026,CMS Medicare Part B by Provider & Service
+1588144588,Amir Etesam,,I,6000 Executive Blvd Ste 101,North Bethesda,MD,20852,G2083,145,13,1122.1910345,2026,CMS Medicare Part B by Provider & Service
+1588808901,Remigiusz Drozd,D.O.,I,331 N Milpas St Ste 1b,Santa Barbara,CA,93103,G2083,143,18,1112.1,2026,CMS Medicare Part B by Provider & Service
+1619232113,Nathan Johnston,,I,23119 W Interstate 10 Bldg 7,San Antonio,TX,78257,G2083,278,22,892.1528777,2026,CMS Medicare Part B by Provider & Service
+1629178116,Linda Varela,MD,I,201 Lyons Ave,Newark,NJ,07112,G2083,97,17,1105.8649485,2026,CMS Medicare Part B by Provider & Service
+1629569652,Yoonju Cho,MD PHD,I,55 Fruit St,Boston,MA,02114,G2083,118,27,1139.4,2026,CMS Medicare Part B by Provider & Service
+1669916102,Jennifer Sassman,"ARNP, DNP, FNP-BC",I,105 E 9th St,Coralville,IA,52241,G2083,90,15,730.74933333,2026,CMS Medicare Part B by Provider & Service
+1699971200,David Wolff,M.D.,I,615 Hope Rd Ste 2,Eatontown,NJ,07724,G2083,280,22,876.52807143,2026,CMS Medicare Part B by Provider & Service
+1700233152,Andrew Leblanc,MD,I,320 N Main St Ste 300,Ann Arbor,MI,48104,G2083,392,15,931.59984694,2026,CMS Medicare Part B by Provider & Service
+1710129002,Haviva Malina,M.D.,I,1825 Eastchester Rd,Bronx,NY,10461,G2083,32,17,1108.20625,2026,CMS Medicare Part B by Provider & Service
+1710924469,Jeffrey Doshier,M.D.,I,440 South St,Pittsfield,MA,01201,G2083,104,11,997.57288462,2026,CMS Medicare Part B by Provider & Service
+1720284250,Trever Krehbiel,MD,I,6432 E 34th St N Ste 100,Wichita,KS,67226,G2083,490,26,857.13969388,2026,CMS Medicare Part B by Provider & Service
+1730541426,Tyler Kjorvestad,M.D.,I,3901 Rainbow Blvd,Kansas City,KS,66160,G2083,237,16,26.96,2026,CMS Medicare Part B by Provider & Service
+1740717560,Sina Nikayin,MD,I,129 Kings Hwy N,Westport,CT,06880,G2083,79,11,25.875316456,2026,CMS Medicare Part B by Provider & Service
+1750770327,Trent Sassman,CRNA,I,200 Hawkins Dr,Iowa City,IA,52242,G2083,17,11,865.43941176,2026,CMS Medicare Part B by Provider & Service
+1780644880,Lynne Lyons,MD,I,2300 Haggerty Rd,West Bloomfield,MI,48323,G2083,914,30,932.31368709,2026,CMS Medicare Part B by Provider & Service
+1801250592,Rebecca Short-Fried,DO,I,300 Tamal Plz Ste 180,Corte Madera,CA,94925,G2083,63,11,1318.5922222,2026,CMS Medicare Part B by Provider & Service
+1801407093,Laura Wood,ARNP,I,1740 Lininger Ln,North Liberty,IA,52317,G2083,46,13,718.2373913,2026,CMS Medicare Part B by Provider & Service
+1801995352,Srisai Gowda,M.D.,I,"#2106, New Road",Linwood,NJ,08221,G2083,108,16,1041.467037,2026,CMS Medicare Part B by Provider & Service
+1811946072,Ildiko Kovacs,M.D.,I,200 W Arbor Dr,San Diego,CA,92103,G2083,68,21,1097.8589706,2026,CMS Medicare Part B by Provider & Service
+1831216282,Corey Priesman,M.D.,I,2001 Dwight Way,Berkeley,CA,94704,G2083,78,24,1317.2620513,2026,CMS Medicare Part B by Provider & Service
+1831535053,Aaron Siani,M.D.,I,2211 Corinth Ave Ste 202,Los Angeles,CA,90064,G2083,224,25,1105.0218304,2026,CMS Medicare Part B by Provider & Service
+1831578723,Ryan Nugent,MD,I,360 Post St Ste 500,San Francisco,CA,94108,G2083,23,11,1339.9,2026,CMS Medicare Part B by Provider & Service
+1841395266,Rick Trautner,M.D.,I,2006 Dwight Way Ste 302,Berkeley,CA,94704,G2083,43,11,1313.0574419,2026,CMS Medicare Part B by Provider & Service
+1851317101,Robert Freele,M.D.,I,7777 Forest Ln,Dallas,TX,75230,G2083,102,11,971.26127451,2026,CMS Medicare Part B by Provider & Service
+1871022764,Paige Dargatz,NP-C,I,2120 8th Ave Ne,Aberdeen,SD,57401,G2083,28,12,772.67857143,2026,CMS Medicare Part B by Provider & Service
+1871578906,Jaimee O'connor,MD,I,475 Seaview Ave,Staten Island,NY,10305,G2083,53,13,1130.2967925,2026,CMS Medicare Part B by Provider & Service
+1871974584,Brian Boyle,MD,I,1180 Beacon St Ste 6a,Brookline,MA,02446,G2083,269,14,1123.8458364,2026,CMS Medicare Part B by Provider & Service
+1881771004,Michael Banov,MD,I,108 Margaret Ave,Marietta,GA,30060,G2083,242,16,850.51528926,2026,CMS Medicare Part B by Provider & Service
+1891043832,Francisco Dofeliz,M.D.,I,6380 Mae Anne Ave,Reno,NV,89523,G2083,253,20,936.35857708,2026,CMS Medicare Part B by Provider & Service
+1902514375,Stephanie Parent,RN,I,435 Shrewsbury St,Worcester,MA,01604,G2083,58,12,854.59655172,2026,CMS Medicare Part B by Provider & Service
+1922195999,Kalappurackal Joseph,MD,I,2525 Crooks Rd,Troy,MI,48084,G2083,319,11,935.25987461,2026,CMS Medicare Part B by Provider & Service
+1932276425,William Upshaw,M.D.,I,1001 S Macdill Ave Ste 400,Tampa,FL,33629,G2083,142,14,883.56887324,2026,CMS Medicare Part B by Provider & Service
+1932284460,Kris Peterson,M.D.,I,9115 Bridgeport Way Sw Ste 2,Lakewood,WA,98499,G2083,299,19,966.42842809,2026,CMS Medicare Part B by Provider & Service
+1932312840,Ivan Cichowicz,M.D.,I,2201 Nw Corporate Blvd,Boca Raton,FL,33431,G2083,306,28,939.81124183,2026,CMS Medicare Part B by Provider & Service
+1932393204,Michelle Root,ARNP,I,200 Hawkins Dr,Iowa City,IA,52242,G2083,129,13,737.08666667,2026,CMS Medicare Part B by Provider & Service
+1942388657,Stephen Ramondino,MD,I,576 Hartnell St.#300,Monterey,CA,93940,G2083,187,15,1090.5179144,2026,CMS Medicare Part B by Provider & Service
+1942521786,Tammy Chin,M.D.,I,2020 Milvia St Ste 300,Berkeley,CA,94704,G2083,69,20,1301.9527536,2026,CMS Medicare Part B by Provider & Service
+1942664842,Pedro Duran,,I,401 Parnassus Ave # 984,San Francisco,CA,94143,G2083,103,21,1328.6938835,2026,CMS Medicare Part B by Provider & Service
+1952528598,Lawrence Cohen,M.D.,I,2041 Bancroft Way,Berkeley,CA,94704,G2083,85,19,1314.8710588,2026,CMS Medicare Part B by Provider & Service
+1962727966,Benjamin Yudkoff,MD,I,53 Langley Rd Ste 250,Newton,MA,02459,G2083,228,15,1130.1139912,2026,CMS Medicare Part B by Provider & Service
+1972577005,Sandeep Gupta,MD,I,501 W 14th Street,Wilmington,DE,19801,G2083,143,11,935.81622378,2026,CMS Medicare Part B by Provider & Service
+1982994034,Yoojin Na,M.D.,I,41 E Post Rd,White Plains,NY,10601,G2083,41,12,1198.24,2026,CMS Medicare Part B by Provider & Service
+1992975841,James Rush,M.D.,I,1901 Medi Park Dr Ste 2058,Amarillo,TX,79106,G2083,652,20,894.69421779,2026,CMS Medicare Part B by Provider & Service

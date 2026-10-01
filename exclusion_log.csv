@@ -1,0 +1,6 @@
+stage,exclusion_rule,records_excluded,enforcement
+Clinics: source ingest,"HealingMaps listings NOT tagged as a psychedelic/psychedelic-therapy category (GLP-1, peptide, generic wellness clinics the source also lists)",980,psychedelic-only keep-rule in harvest_healingmaps.py
+Trials: query expansion,ClinicalTrials.gov records matching a search term but carrying NO psychedelic intervention (e.g. 'DMT' = disease-modifying therapy in multiple-sclerosis trials),93,no-drug-evidence artifact drop in harvest_ctgov.py
+Trials: relevance,"Studies whose indication is anesthesia/analgesia/procedural-sedation, sharing only a molecule (ketamine) with the therapeutic field",804,relevance classifier (psychiatric/anesthesia_analgesia/other); anesthesia excluded from index
+Trial sites: relevance,Trial-site rows belonging to anesthesia/analgesia studies above,997,"same classifier, propagated to site rows"
+Facilities: validation,"Rows quarantined at merge: non-facility organizations, wellness residue, unidentifiable rows",1296,validate.py gate; quarantine.csv with written reasons

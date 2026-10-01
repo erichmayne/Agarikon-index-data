@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Agarikon: A Screened Index of Psychedelic Medicine"
+message: "If you use this data, please cite it using the concept DOI below."
+type: dataset
+authors:
+  - family-names: Mayne
+    given-names: Erich
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22649810
+    description: Concept DOI, always resolves to the latest version
+url: "https://agarikon-index.com/data"
+repository-code: "https://github.com/erichmayne/Agarikon-index-data"
+license: CC-BY-4.0
+date-released: "2026-10-01"
+keywords:
+  - psychedelic therapy
+  - psilocybin
+  - clinical trials
+  - drug policy
+  - health services research
