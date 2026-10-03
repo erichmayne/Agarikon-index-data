@@ -18,6 +18,19 @@ _Every dataset the pipeline produces: where it comes from, what it means, its sc
 | **`coauthor_edges.csv`** (new) | one collaboration edge (author-pair, weight = co-papers) | a\|b | monthly |
 | **`publications.csv`** (new 2026-09-04) | one scholarly work: title, year, citations, first/senior author, OpenAlex link | openalex_id | monthly |
 
+## Publications re-scoped to psychedelic medicine, 2026-10-02
+- **Corpus 45,628 -> 33,166.** The gate splits on where the subject appears. A psychedelic in the TITLE is admitted unless the title frames it as humanities, ethnography, taxonomy or cultivation. A psychedelic mentioned ONLY in the abstract needs a clinical title. Every piece of junk in the precision audit was abstract-only; the title-subject papers were never the problem. Drops are recorded in EXCLUSION_LOG.md as three "Publications: scope" stages.
+- The first fix demanded a clinical word in every title and deleted Griffiths 2006 (1,718 citations) — 85% of what it dropped had no abstract in OpenAlex. Caught mid-run; both the junk set and the landmark set are now regression tests.
+- `--rescope` starts the harvest from an empty corpus (a re-walk keeps held works, so a stricter gate would never reach them) and is the only way past the collapse guard. It is a deliberate, logged human decision.
+- **New per-work fields:** pmid, pmcid, date, journal, language, fwci, oa_status, oa_pdf (free full text where it exists), oa_url, oa_license, landing_page, retracted, funders (`id|name`), corresponding_author_ids, admitted_by (which query let it in), oa_topic, oa_subfield. OpenAlex charges per request, not per field, so these cost nothing.
+- **`paper_authors.csv`** — one row per (work, author): OpenAlex author id, ORCID, position, is_corresponding, institution, institution id, ROR, country, email. The foundation of the entity graph. Previously all of this was fetched and discarded at emit.
+- **`abstracts.jsonl`** — reconstructed abstracts, append-only sidecar. For detail shards only; never the list payload.
+- **`paper_author_emails.csv`** (`harvest_pubmed_emails.py`) — corresponding-author emails from PubMed, which keeps them inside a specific author's affiliation where OpenAlex strips them. Matched to the OpenAlex author on the same paper by surname then position. `name_match=CHECK` flags addresses whose local part does not plausibly belong to that person (initials-style addresses such as jqs@ for Jane Q. Smith pass; generic info@ or editor@ do not). Refreshes on the 30-day OpenAlex window.
+- **Emails are internal.** paper_authors.csv and paper_author_emails.csv are deliberately NOT in sync_data_repo.py's allowlist. Publication emails feed outreach; they are not republished in bulk.
+
+## Quarantine fixed, 2026-10-02
+`quarantine.csv` was append-only with a header written once at creation. Every refresh re-added the same rows (35 distinct organizations appeared ~14 times each), and when `basis_source` was added to facilities_master on 2026-09-11 every later row became one field wider than the header, shifting study titles into `qc_reason`. The published count read 1,332 and grew daily. It is now rewritten each run as the CURRENT quarantine, atomically, carrying each row's first-seen date; the 36 distinct historical rows are archived in `quarantine_archive_2026-10-02.csv`. Validation currently quarantines nothing because non-facility organizations are now caught earlier, at merge — which EXCLUSION_LOG.md now records as its own "Facilities: merge" stages.
+
 ## Scope: how complete is this index? (measured 2026-10-01)
 Full survey in `research/scope-survey-2026-10.md`. Headlines: publications ~95%+ complete
 after the rebuild (45,619 works, 86.1% with a DOI); trials ~78% (classic psychedelics ~86%,

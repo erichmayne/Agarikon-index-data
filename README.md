@@ -21,15 +21,15 @@ data contract: every field, cadence, gate and licence.
 
 ## Current snapshot
 
-Generated 2026-10-01T12:57:52-07:00
+Generated 2026-10-03T15:39:00-07:00
 
 | dataset | rows |
 |---|---|
 | clinics | 2,259 |
 | industry | 167 |
-| papers | 45,619 |
+| papers | 33,166 |
 | policy | 1,532 |
-| research | 4,549 |
+| research | 4,550 |
 | researchers | 1,618 |
 | retreats | 214 |
 | studies | 1,631 |
@@ -46,6 +46,13 @@ independently verified field data and directory-sourced listings are not relicen
 
 The compilation — the selection, screening and arrangement — is © Erich Mayne / Agarikon,
 released CC BY 4.0. Individual records remain under their source licences.
+
+## No email addresses in this deposit
+
+Contact emails are deliberately removed from every file here, and therefore from every
+Zenodo version. Where a clinic, trial site or researcher publishes a contact address, the
+live site shows it on that record, linked to the source that printed it. A permanent,
+citable bulk file is the wrong place for thousands of personal addresses.
 
 ## Caveats worth reading before you cite
 
