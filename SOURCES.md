@@ -2,7 +2,7 @@
 
 Every file the pipeline publishes, what one row means, where it comes from and how often it changes. The site is built from these files and nothing else, so if a column isn't described here, don't build on it.
 
-Two machine files sit beside this one. `sources.json` is the curated registry of every source we pull, have measured, or have ruled out, with its licence, what we may republish, how often it refreshes and what blocks it. `sources_status.json` is rewritten on every refresh with each source's live health, the last run's outcome, and how much of the real world each slice of the index holds. History and the reasons behind the rules are in `CHANGELOG.md`.
+Two machine files sit beside this one. `sources.json` is the curated registry of every source we pull, have measured, or have ruled out, with its licence, what we may republish, how often it refreshes and what blocks it. `sources_status.json` is rewritten on every refresh with each source's live health, the last run's outcome, and how much of the real world each slice of the index holds. History and the reasons behind the rules are in `CHANGELOG.md`. The readable version is `research/SOURCES_STATUS.md`, regenerated with them. It opens with how each part of the site refreshes (scheduled, frozen, manual or hard-coded) and which routes a manual pull can reach, from the `refresh` block in sources.json.
 
 ## Places: clinics, retreats and trial sites
 
