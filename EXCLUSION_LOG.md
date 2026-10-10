@@ -1,5 +1,5 @@
 # Agarikon — Exclusion & Screening Log
-_Generated 2026-10-07 from live pipeline state. Every count is recomputed from the datasets on each refresh, except the one row marked historical (a stage that no longer runs)._
+_Generated 2026-10-09 from live pipeline state. Every count is recomputed from the datasets on each refresh, except the one row marked historical (a stage that no longer runs)._
 
 ## Why this file exists
 Agarikon is a screened index, not a scrape. Sources present records that look in-scope but are not: a directory that also lists weight-loss clinics, a trial registry where one search term spans two medical fields, organizations that are not treatment facilities. This log is the record of what was removed and under what rule — the difference between a methodology and a list.
@@ -24,8 +24,8 @@ Agarikon is a screened index, not a scrape. Sources present records that look in
 | Facilities: validation | Rows quarantined at merge: non-facility organizations, wellness residue, unidentifiable rows | 36 | validate.py gate; quarantine.csv with written reasons |
 
 ## Locked figures (this snapshot)
-- Studies excluded as anesthesia/analgesia: **837 of 2,437 = 34.3%**
-- Trial-site rows excluded on the same basis: **1,030 of 5,663 = 18.2%**
+- Studies excluded as anesthesia/analgesia: **837 of 2,439 = 34.3%**
+- Trial-site rows excluded on the same basis: **1,030 of 5,669 = 18.2%**
 - Facility rows quarantined at validation: **36** (36 non-facility org in facilities master)
 - Wellness/non-psychedelic clinic listings dropped at source ingest: **980**, historical (the HealingMaps harvest of 2026-09-02; the source has refused us since)
 - Query-expansion artifact studies dropped this run: **0** (93 when the rule began; the intervention-field query no longer produces them)
