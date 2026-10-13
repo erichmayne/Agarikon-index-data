@@ -1,5 +1,5 @@
 # Agarikon — Exclusion & Screening Log
-_Generated 2026-10-12 from live pipeline state. Every count is recomputed from the datasets on each refresh, except the one row marked historical (a stage that no longer runs)._
+_Generated 2026-10-13 from live pipeline state. Every count is recomputed from the datasets on each refresh, except the one row marked historical (a stage that no longer runs)._
 
 ## Why this file exists
 Agarikon is a screened index, not a scrape. Sources present records that look in-scope but are not: a directory that also lists weight-loss clinics, a trial registry where one search term spans two medical fields, organizations that are not treatment facilities. This log is the record of what was removed and under what rule — the difference between a methodology and a list.
@@ -10,8 +10,8 @@ Agarikon is a screened index, not a scrape. Sources present records that look in
 |---|---|---|---|
 | Clinics: source ingest | HealingMaps listings NOT tagged as a psychedelic/psychedelic-therapy category (GLP-1, peptide, generic wellness clinics the source also lists). Historical: the 2026-09-02 harvest; the source has refused us since | 980 | psychedelic-only keep-rule in harvest_healingmaps.py |
 | Trials: query expansion | ClinicalTrials.gov records matching a search term but carrying NO psychedelic intervention (93 when the rule began on 2026-09-02; 0 since, because the harvester now queries only the intervention field) | 0 | no-drug-evidence artifact drop in harvest_ctgov.py (count from its own log) |
-| Trials: relevance | Studies whose indication is anesthesia/analgesia/procedural-sedation, sharing only a molecule (ketamine) with the therapeutic field | 837 | relevance classifier (psychiatric/anesthesia_analgesia/other); anesthesia excluded from index |
-| Trial sites: relevance | Trial-site rows belonging to anesthesia/analgesia studies above | 1,030 | same classifier, propagated to site rows |
+| Trials: relevance | Studies whose indication is anesthesia/analgesia/procedural-sedation, sharing only a molecule (ketamine) with the therapeutic field | 838 | relevance classifier (psychiatric/anesthesia_analgesia/other); anesthesia excluded from index |
+| Trial sites: relevance | Trial-site rows belonging to anesthesia/analgesia studies above | 1,031 | same classifier, propagated to site rows |
 | Publications: scope | Psychedelic term appears only in the abstract and the title is not clinical — a passing mention (how a COVID-19 meta-analysis and a Japan-Hungary diplomatic history entered the corpus before 2026-10-02) | 13,931 | is_relevant() in scope.py; scope = psychedelic medicine |
 | Publications: scope | Returned by the search but no psychedelic term in title or abstract | 6,453 | is_relevant() in scope.py |
 | Publications: scope | Psychedelic is the title subject but the framing is humanities, ethnography, taxonomy or cultivation, not medicine | 1,174 | is_relevant() in scope.py |
@@ -24,8 +24,8 @@ Agarikon is a screened index, not a scrape. Sources present records that look in
 | Facilities: validation | Rows quarantined at merge: non-facility organizations, wellness residue, unidentifiable rows | 36 | validate.py gate; quarantine.csv with written reasons |
 
 ## Locked figures (this snapshot)
-- Studies excluded as anesthesia/analgesia: **837 of 2,439 = 34.3%**
-- Trial-site rows excluded on the same basis: **1,030 of 5,669 = 18.2%**
+- Studies excluded as anesthesia/analgesia: **838 of 2,441 = 34.3%**
+- Trial-site rows excluded on the same basis: **1,031 of 5,671 = 18.2%**
 - Facility rows quarantined at validation: **36** (36 non-facility org in facilities master)
 - Wellness/non-psychedelic clinic listings dropped at source ingest: **980**, historical (the HealingMaps harvest of 2026-09-02; the source has refused us since)
 - Query-expansion artifact studies dropped this run: **0** (93 when the rule began; the intervention-field query no longer produces them)
