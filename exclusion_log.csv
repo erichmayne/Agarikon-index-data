@@ -1,8 +1,8 @@
 stage,exclusion_rule,records_excluded,enforcement
 Clinics: source ingest,"HealingMaps listings NOT tagged as a psychedelic/psychedelic-therapy category (GLP-1, peptide, generic wellness clinics the source also lists). Historical: the 2026-09-02 harvest; the source has refused us since",980,psychedelic-only keep-rule in harvest_healingmaps.py
 Trials: query expansion,"ClinicalTrials.gov records matching a search term but carrying NO psychedelic intervention (93 when the rule began on 2026-09-02; 0 since, because the harvester now queries only the intervention field)",0,no-drug-evidence artifact drop in harvest_ctgov.py (count from its own log)
-Trials: relevance,"Studies whose indication is anesthesia/analgesia/procedural-sedation, sharing only a molecule (ketamine) with the therapeutic field",838,relevance classifier (psychiatric/anesthesia_analgesia/other); anesthesia excluded from index
-Trial sites: relevance,Trial-site rows belonging to anesthesia/analgesia studies above,1031,"same classifier, propagated to site rows"
+Trials: relevance,"Studies whose indication is anesthesia/analgesia/procedural-sedation, sharing only a molecule (ketamine) with the therapeutic field",839,relevance classifier (psychiatric/anesthesia_analgesia/other); anesthesia excluded from index
+Trial sites: relevance,Trial-site rows belonging to anesthesia/analgesia studies above,1032,"same classifier, propagated to site rows"
 Publications: scope,Psychedelic term appears only in the abstract and the title is not clinical — a passing mention (how a COVID-19 meta-analysis and a Japan-Hungary diplomatic history entered the corpus before 2026-10-02),13931,is_relevant() in scope.py; scope = psychedelic medicine
 Publications: scope,Returned by the search but no psychedelic term in title or abstract,6453,is_relevant() in scope.py
 Publications: scope,"Psychedelic is the title subject but the framing is humanities, ethnography, taxonomy or cultivation, not medicine",1174,is_relevant() in scope.py
