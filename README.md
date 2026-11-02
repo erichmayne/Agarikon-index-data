@@ -21,13 +21,13 @@ data contract: every field, cadence, gate and licence.
 
 ## Current snapshot
 
-Generated 2026-11-01T09:37:45-05:00
+Generated 2026-11-02T09:44:18-05:00
 
 | dataset | rows |
 |---|---|
 | clinics | 2,247 |
-| facilitators | 346 |
-| grants | 405 |
+| facilitators | 343 |
+| grants | 406 |
 | industry | 167 |
 | institutions | 2,303 |
 | papers | 31,498 |
