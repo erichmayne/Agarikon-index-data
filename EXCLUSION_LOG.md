@@ -1,5 +1,5 @@
 # Agarikon — Exclusion & Screening Log
-_Generated 2026-11-03 from live pipeline state. Every count is recomputed from the datasets on each refresh, except the one row marked historical (a stage that no longer runs)._
+_Generated 2026-11-04 from live pipeline state. Every count is recomputed from the datasets on each refresh, except the one row marked historical (a stage that no longer runs)._
 
 ## Why this file exists
 Agarikon is a screened index, not a scrape. Sources present records that look in-scope but are not: a directory that also lists weight-loss clinics, a trial registry where one search term spans two medical fields, organizations that are not treatment facilities. This log is the record of what was removed and under what rule — the difference between a methodology and a list.
@@ -12,11 +12,11 @@ Agarikon is a screened index, not a scrape. Sources present records that look in
 | Trials: query expansion | ClinicalTrials.gov records matching a search term but carrying NO psychedelic intervention (93 when the rule began on 2026-09-02; 0 since, because the harvester now queries only the intervention field) | 0 | no-drug-evidence artifact drop in harvest_ctgov.py (count from its own log) |
 | Trials: relevance | Studies whose indication is anesthesia/analgesia/procedural-sedation, sharing only a molecule (ketamine) with the therapeutic field | 839 | relevance classifier (psychiatric/anesthesia_analgesia/other); anesthesia excluded from index |
 | Trial sites: relevance | Trial-site rows belonging to anesthesia/analgesia studies above | 1,032 | same classifier, propagated to site rows |
-| Publications: scope | Psychedelic term appears only in the abstract and the title is not clinical — a passing mention (how a COVID-19 meta-analysis and a Japan-Hungary diplomatic history entered the corpus before 2026-10-02) | 13,931 | is_relevant() in scope.py; scope = psychedelic medicine |
-| Publications: scope | Returned by the search but no psychedelic term in title or abstract | 6,453 | is_relevant() in scope.py |
-| Publications: scope | Psychedelic is the title subject but the framing is humanities, ethnography, taxonomy or cultivation, not medicine | 1,174 | is_relevant() in scope.py |
-| Publications: scope | 'Microdosing' in the title without any psychedelic named: pharmacology's phase-0 microdose (oncology, fertility, veterinary anaesthesia) | 1,551 | microdose_only() in scope.py |
-| Publications: scope | Phencyclidine (PCP) or MK-801 is the title's only drug: pharmacology's psychosis-model NMDA antagonists, in on a ketamine mention in the abstract | 117 | nmda_tool_only() in scope.py |
+| Publications: scope | Psychedelic term appears only in the abstract and the title is not clinical — a passing mention (how a COVID-19 meta-analysis and a Japan-Hungary diplomatic history entered the corpus before 2026-10-02) | 13,236 | is_relevant() in scope.py; scope = psychedelic medicine |
+| Publications: scope | Returned by the search but no psychedelic term in title or abstract | 6,291 | is_relevant() in scope.py |
+| Publications: scope | Psychedelic is the title subject but the framing is humanities, ethnography, taxonomy or cultivation, not medicine | 1,082 | is_relevant() in scope.py |
+| Publications: scope | 'Microdosing' in the title without any psychedelic named: pharmacology's phase-0 microdose (oncology, fertility, veterinary anaesthesia) | 1,510 | microdose_only() in scope.py |
+| Publications: scope | Phencyclidine (PCP) or MK-801 is the title's only drug: pharmacology's psychosis-model NMDA antagonists, in on a ketamine mention in the abstract | 373 | nmda_tool_only() in scope.py |
 | Facilities: merge | Non-treatment organizations (law firms, funders, regulators, advocacy groups, drug developers) reclassified out of the clinics layer — they remain in the industry layer | 144 | industry cross-reference in merge_master.py |
 | Facilities: merge | Duplicate operator rows collapsed (same name and country, city missing or contained) | 81 | second-pass dedupe in merge_master.py; every merge logged to dedupe_merges.csv |
 | Facilities: merge | One licensee listed twice (legal name and dba) folded on its state licence and website | 9 | licence fold in merge_master.py; logged to dedupe_merges.csv |
