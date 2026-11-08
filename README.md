@@ -21,7 +21,7 @@ data contract: every field, cadence, gate and licence.
 
 ## Current snapshot
 
-Generated 2026-11-06T09:37:04-05:00
+Generated 2026-11-08T10:18:41-08:00
 
 | dataset | rows |
 |---|---|
