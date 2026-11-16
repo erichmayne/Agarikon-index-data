@@ -106,6 +106,7 @@ substance,quota_year,doc_kind,quota_grams,extraction,superseded,published,doc_ur
 "3,4-methylenedioxymethamphetamine",2024,proposed,12000,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21960/proposed-adjustments-to-the-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances
 "3,4-methylenedioxymethamphetamine",2025,proposed,12000,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21962/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 "3,4-methylenedioxymethamphetamine",2026,final,12000,parsed,no,2026-01-05,https://www.federalregister.gov/documents/2026/01/05/2025-24277/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment
+"3,4-methylenedioxymethamphetamine",2027,proposed,33296,parsed,no,2026-11-10,https://www.federalregister.gov/documents/2026/11/10/2026-22843/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 "5-methoxy-n,n-dimethyltryptamine",2013,final,10,parsed,yes,2012-10-01,https://www.federalregister.gov/documents/2012/10/01/2012-24089/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-established
 "5-methoxy-n,n-dimethyltryptamine",2013,final,10,parsed,no,2013-08-07,https://www.federalregister.gov/documents/2013/08/07/2013-19046/final-adjusted-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and
 "5-methoxy-n,n-dimethyltryptamine",2013,proposed,10,parsed,yes,2012-08-03,https://www.federalregister.gov/documents/2012/08/03/2012-19052/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-proposed
@@ -146,6 +147,7 @@ substance,quota_year,doc_kind,quota_grams,extraction,superseded,published,doc_ur
 "5-methoxy-n,n-dimethyltryptamine",2024,proposed,11000,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21960/proposed-adjustments-to-the-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances
 "5-methoxy-n,n-dimethyltryptamine",2025,proposed,11000,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21962/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 "5-methoxy-n,n-dimethyltryptamine",2026,final,30000,parsed,no,2026-01-05,https://www.federalregister.gov/documents/2026/01/05/2025-24277/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment
+"5-methoxy-n,n-dimethyltryptamine",2027,proposed,30000,parsed,no,2026-11-10,https://www.federalregister.gov/documents/2026/11/10/2026-22843/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 dimethyltryptamine,1996,proposed,,manual_needed,no,1996-10-17,https://www.federalregister.gov/documents/1996/10/17/96-26581/controlled-substances-proposed-aggregate-production-quotas-for-1997
 dimethyltryptamine,1997,final,,manual_needed,no,1997-11-21,https://www.federalregister.gov/documents/1997/11/21/97-30651/controlled-substances-established-initial-aggregate-production-quotas-for-1998
 dimethyltryptamine,1997,proposed,,manual_needed,yes,1997-06-05,https://www.federalregister.gov/documents/1997/06/05/97-14698/controlled-substances-notice-of-proposed-revised-1997-aggregate-production-quotas
@@ -256,6 +258,7 @@ dimethyltryptamine,2025,final,,manual_needed,no,2024-12-17,https://www.federalre
 dimethyltryptamine,2025,proposed,11000,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21962/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 dimethyltryptamine,2026,final,30000,parsed,no,2026-01-05,https://www.federalregister.gov/documents/2026/01/05/2025-24277/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment
 dimethyltryptamine,2026,proposed,,manual_needed,no,2025-11-28,https://www.federalregister.gov/documents/2025/11/28/2025-21509/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
+dimethyltryptamine,2027,proposed,30000,parsed,no,2026-11-10,https://www.federalregister.gov/documents/2026/11/10/2026-22843/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 ibogaine,2007,final,,manual_needed,yes,2006-12-11,https://www.federalregister.gov/documents/2006/12/11/E6-20920/controlled-substances-established-initial-aggregate-production-quotas-for-2007
 ibogaine,2007,final,,manual_needed,no,2007-08-24,https://www.federalregister.gov/documents/2007/08/24/E7-16730/controlled-substances-final-revised-aggregate-production-quotas-for-2007
 ibogaine,2007,proposed,,manual_needed,no,2007-05-03,https://www.federalregister.gov/documents/2007/05/03/E7-8422/controlled-substances-proposed-revised-aggregate-production-quotas-for-2007
@@ -323,6 +326,7 @@ ibogaine,2024,proposed,150,parsed,yes,2023-11-02,https://www.federalregister.gov
 ibogaine,2024,proposed,150,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21960/proposed-adjustments-to-the-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances
 ibogaine,2025,proposed,210,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21962/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 ibogaine,2026,final,210,parsed,no,2026-01-05,https://www.federalregister.gov/documents/2026/01/05/2025-24277/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment
+ibogaine,2027,proposed,12002,parsed,no,2026-11-10,https://www.federalregister.gov/documents/2026/11/10/2026-22843/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 lysergic acid diethylamide,1994,final,41,parsed,no,1994-10-20,https://www.federalregister.gov/documents/1994/10/20/94-25947/controlled-substances-established-initial-1995-aggregate-production-quotas
 lysergic acid diethylamide,1994,proposed,41,parsed,no,1994-08-04,https://www.federalregister.gov/documents/1994/08/04/94-19054/controlled-substances-proposed-aggregate-production-quotas-for-1995
 lysergic acid diethylamide,1995,final,58,parsed,no,1995-11-21,https://www.federalregister.gov/documents/1995/11/21/95-28550/controlled-substances-established-initial-1996-aggregate-production-quotas
@@ -437,6 +441,7 @@ lysergic acid diethylamide,2024,proposed,1200,parsed,yes,2023-11-02,https://www.
 lysergic acid diethylamide,2024,proposed,1200,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21960/proposed-adjustments-to-the-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances
 lysergic acid diethylamide,2025,proposed,1200,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21962/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 lysergic acid diethylamide,2026,final,1200,parsed,no,2026-01-05,https://www.federalregister.gov/documents/2026/01/05/2025-24277/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment
+lysergic acid diethylamide,2027,proposed,1200,parsed,no,2026-11-10,https://www.federalregister.gov/documents/2026/11/10/2026-22843/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 mescaline,1994,final,,manual_needed,no,1994-10-20,https://www.federalregister.gov/documents/1994/10/20/94-25947/controlled-substances-established-initial-1995-aggregate-production-quotas
 mescaline,1994,proposed,,manual_needed,no,1994-08-04,https://www.federalregister.gov/documents/1994/08/04/94-19054/controlled-substances-proposed-aggregate-production-quotas-for-1995
 mescaline,1995,final,,manual_needed,no,1995-11-21,https://www.federalregister.gov/documents/1995/11/21/95-28550/controlled-substances-established-initial-1996-aggregate-production-quotas
@@ -552,6 +557,7 @@ mescaline,2024,proposed,1200,parsed,yes,2023-11-02,https://www.federalregister.g
 mescaline,2024,proposed,1200,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21960/proposed-adjustments-to-the-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances
 mescaline,2025,proposed,1200,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21962/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 mescaline,2026,final,1200,parsed,no,2026-01-05,https://www.federalregister.gov/documents/2026/01/05/2025-24277/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment
+mescaline,2027,proposed,1200,parsed,no,2026-11-10,https://www.federalregister.gov/documents/2026/11/10/2026-22843/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 psilocybin,1995,final,,manual_needed,no,1995-11-21,https://www.federalregister.gov/documents/1995/11/21/95-28550/controlled-substances-established-initial-1996-aggregate-production-quotas
 psilocybin,1995,proposed,,manual_needed,no,1995-07-27,https://www.federalregister.gov/documents/1995/07/27/95-18407/controlled-substances-proposed-aggregate-production-quotas-for-1996
 psilocybin,1996,proposed,,manual_needed,yes,1996-07-26,https://www.federalregister.gov/documents/1996/07/26/96-19019/1996-revised-aggregate-production-quotas-for-controlled-substances-in-schedules-i-and-ii
@@ -664,6 +670,7 @@ psilocybin,2024,proposed,20000,parsed,no,2024-09-25,https://www.federalregister.
 psilocybin,2025,proposed,30000,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21962/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 psilocybin,2026,final,50000,parsed,no,2026-01-05,https://www.federalregister.gov/documents/2026/01/05/2025-24277/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment
 psilocybin,2026,proposed,,manual_needed,no,2025-11-28,https://www.federalregister.gov/documents/2025/11/28/2025-21509/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
+psilocybin,2027,proposed,60000,parsed,no,2026-11-10,https://www.federalregister.gov/documents/2026/11/10/2026-22843/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
 psilocyn,1995,final,,manual_needed,no,1995-11-21,https://www.federalregister.gov/documents/1995/11/21/95-28550/controlled-substances-established-initial-1996-aggregate-production-quotas
 psilocyn,1995,proposed,,manual_needed,no,1995-07-27,https://www.federalregister.gov/documents/1995/07/27/95-18407/controlled-substances-proposed-aggregate-production-quotas-for-1996
 psilocyn,1996,proposed,,manual_needed,no,1996-07-26,https://www.federalregister.gov/documents/1996/07/26/96-19019/1996-revised-aggregate-production-quotas-for-controlled-substances-in-schedules-i-and-ii
@@ -763,3 +770,4 @@ psilocyn,2024,proposed,24000,parsed,yes,2023-11-02,https://www.federalregister.g
 psilocyn,2024,proposed,237,parsed,no,2024-09-25,https://www.federalregister.gov/documents/2024/09/25/2024-21960/proposed-adjustments-to-the-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances
 psilocyn,2026,final,80000,parsed,no,2026-01-05,https://www.federalregister.gov/documents/2026/01/05/2025-24277/established-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment
 psilocyn,2026,proposed,,manual_needed,no,2025-11-28,https://www.federalregister.gov/documents/2025/11/28/2025-21509/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
+psilocyn,2027,proposed,93600,parsed,no,2026-11-10,https://www.federalregister.gov/documents/2026/11/10/2026-22843/proposed-aggregate-production-quotas-for-schedule-i-and-ii-controlled-substances-and-assessment-of
