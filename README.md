@@ -21,7 +21,7 @@ data contract: every field, cadence, gate and licence.
 
 ## Current snapshot
 
-Generated 2026-11-16T06:45:58-08:00
+Generated 2026-11-17T06:39:13-08:00
 
 | dataset | rows |
 |---|---|
@@ -31,7 +31,7 @@ Generated 2026-11-16T06:45:58-08:00
 | industry | 167 |
 | institutions | 2,328 |
 | papers | 32,289 |
-| policy | 1,535 |
+| policy | 1,537 |
 | research | 4,528 |
 | researchers | 9,100 |
 | retreats | 217 |
