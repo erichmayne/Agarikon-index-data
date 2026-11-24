@@ -1,5 +1,5 @@
 # Agarikon — Exclusion & Screening Log
-_Generated 2026-11-22 from live pipeline state. Every count is recomputed from the datasets on each refresh, except the one row marked historical (a stage that no longer runs)._
+_Generated 2026-11-23 from live pipeline state. Every count is recomputed from the datasets on each refresh, except the one row marked historical (a stage that no longer runs)._
 
 ## Why this file exists
 Agarikon is a screened index, not a scrape. Sources present records that look in-scope but are not: a directory that also lists weight-loss clinics, a trial registry where one search term spans two medical fields, organizations that are not treatment facilities. This log is the record of what was removed and under what rule — the difference between a methodology and a list.
@@ -18,7 +18,7 @@ Agarikon is a screened index, not a scrape. Sources present records that look in
 | Publications: scope | 'Microdosing' in the title without any psychedelic named: pharmacology's phase-0 microdose (oncology, fertility, veterinary anaesthesia) | 1,510 | microdose_only() in scope.py |
 | Publications: scope | Phencyclidine (PCP) or MK-801 is the title's only drug: pharmacology's psychosis-model NMDA antagonists, in on a ketamine mention in the abstract | 373 | nmda_tool_only() in scope.py |
 | Facilities: merge | Non-treatment organizations (law firms, funders, regulators, advocacy groups, drug developers) reclassified out of the clinics layer — they remain in the industry layer | 144 | industry cross-reference in merge_master.py |
-| Facilities: merge | Duplicate operator rows collapsed (same name and country, city missing or contained) | 81 | second-pass dedupe in merge_master.py; every merge logged to dedupe_merges.csv |
+| Facilities: merge | Duplicate operator rows collapsed (same name and country, city missing or contained) | 80 | second-pass dedupe in merge_master.py; every merge logged to dedupe_merges.csv |
 | Facilities: merge | One licensee listed twice (legal name and dba) folded on its state licence and website | 9 | licence fold in merge_master.py; logged to dedupe_merges.csv |
 | Facilities: merge | Contact values stripped as source-template leaks (e.g. an NIMH inquiry address printed on hundreds of unrelated clinic listings) | 1,159 | shared-contact guard in merge_master.py; values logged to shared_contacts_stripped.csv |
 | Facilities: validation | Rows quarantined at merge: non-facility organizations, wellness residue, unidentifiable rows | 36 | validate.py gate; quarantine.csv with written reasons |
